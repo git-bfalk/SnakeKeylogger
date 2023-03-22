@@ -15,7 +15,7 @@ $$ |\$$$$$$$$  |$$ |  $$ |\$$$$$$  |$$ |  $$ |\$$$$$$$\ $$ |      $$ |$$ | $$ | 
     \______/                                                                                  
 
         Analysis by: bfalk escobark
-                For: <redacted>
+                For: [REDACTED]
                      21.03.23
 
 Target Info
