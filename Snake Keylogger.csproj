@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{081E81CC-CD1E-4C80-AC6A-7E95049CA92E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snake_Keylogger</RootNamespace>
+    <AssemblyName>Snake Keylogger</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Snake Keylogger.ico</ApplicationIcon>
+    <StartupObject>Snake_Keylogger.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroSuite 2.0, Version=2.0.1.9, Culture=neutral, PublicKeyToken=7b7d08837f2e598f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\MetroSuite 2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Registter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registter.Designer.cs">
+      <DependentUpon>Registter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="snakesystem\CodeVest.cs" />
+    <Compile Include="snakesystem\FingerPrint.cs" />
+    <Compile Include="Updatessss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatessss.Designer.cs">
+      <DependentUpon>Updatessss.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registter.resx">
+      <DependentUpon>Registter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatessss.resx">
+      <DependentUpon>Updatessss.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confuser_CLI" />
+    <None Include="Resources\Confuser_Core" />
+    <None Include="Resources\Confuser_DynCipher" />
+    <None Include="Resources\Confuser_Protections" />
+    <None Include="Resources\Confuser_Renamer" />
+    <None Include="Resources\Confuser_Runtime" />
+    <None Include="Resources\dnlib" />
+    <None Include="Resources\e00aaa77b6494fb47b0dfcff5830c88a" />
+    <None Include="Resources\GalaSoft_MvvmLight_Extras_WPF4" />
+    <None Include="Resources\GalaSoft_MvvmLight_WPF4" />
+    <None Include="Resources\KoiVM" />
+    <None Include="Resources\KoiVM_Confuser" />
+    <None Include="Resources\KoiVM_Runtime" />
+    <None Include="Resources\Microsoft_Practices_ServiceLocation" />
+    <None Include="Resources\Obfuscar_Console" />
+    <None Include="Resources\Ookii_Dialogs_Wpf" />
+    <None Include="Resources\Res" />
+    <None Include="Resources\System_Windows_Interactivity" />
+    <None Include="Resources\Teen" />
+    <None Include="Resources\TestMN" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssemblyReverser.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StubTwo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StubOne.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+﻿Imports System.Windows.Forms
+Imports System.Reflection
+
+<Assembly: AssemblyTitle("*Title*")> 
+<Assembly: AssemblyDescription("*Description*")> 
+<Assembly: AssemblyCompany("*Company*")> 
+<Assembly: AssemblyProduct("*Product*")> 
+<Assembly: AssemblyCopyright("*Copyright*")> 
+'<Assembly: AssemblyTrademark("*Trademark*")> 
+<Assembly: AssemblyVersion("*version*")> 
+'<Assembly: AssemblyFileVersion("*fversion*")> 
+
+Module X
+    Sub Main()
+    	MessageBox.Show("", "", MessageBoxButtons.OK, MessageBoxIcon.Error)
+    End Sub
+End Module

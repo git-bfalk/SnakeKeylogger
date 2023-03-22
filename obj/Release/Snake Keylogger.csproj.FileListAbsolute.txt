@@ -1,0 +1,11 @@
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\bin\Release\Snake Keylogger.exe
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\bin\Release\Snake Keylogger.pdb
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\bin\Release\MetroSuite 2.0.dll
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake_Keylogger.Form1.resources
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake_Keylogger.Login.resources
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake_Keylogger.Properties.Resources.resources
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake_Keylogger.Registter.resources
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake_Keylogger.Updatessss.resources
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake Keylogger.csproj.GenerateResource.Cache
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake Keylogger.exe
+C:\Users\bfalk\Documents\Visual Studio 2010\Projects\SnakeKeylogger\Snake Keylogger\obj\Release\Snake Keylogger.pdb
